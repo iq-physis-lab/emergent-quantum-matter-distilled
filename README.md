@@ -4,7 +4,7 @@
 
 ### "전자가 많이 모이면 금속" 이라고 말하는 것 과,
 
-$$H = \sum_{i} \frac{p_i^2}{2m} + \sum_{i<j}\frac{e^2}{|r_i - r_j|} \;\;\stackrel{N \sim 10^{23}}{\longrightarrow}\;\; \text{준입자 · 포논 · 쿠퍼 쌍 · 애니온}$$
+$$H = \sum_{i} \frac{p_i^2}{2m} + \sum_{i \lt j}\frac{e^2}{|r_i - r_j|} \;\;\stackrel{N \sim 10^{23}}{\longrightarrow}\;\; \text{준입자 · 포논 · 쿠퍼 쌍 · 애니온}$$
 
 ### 다수의 전자가 새로운 입자(준입자)를 만들어낸다 는 것 — "More is Different" 가 빈말이 아니라 물리적 사실 임을 — 아는 것은 다르다.
 
