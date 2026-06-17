@@ -2,6 +2,7 @@
 
 # ⚛️ Emergent Quantum Matter Distilled
 
+<<<<<<< HEAD
 ### "전자가 많이 모이면 금속" 이라고 **말하는 것** 과,
 
 $$H = \sum_{i} \frac{p_i^2}{2m} + \sum_{i<j}\frac{e^2}{|r_i - r_j|} \;\;\xrightarrow{\;N \sim 10^{23}\;}\;\; \text{준입자 · 포논 · 쿠퍼 쌍 · 애니온}$$
@@ -27,6 +28,33 @@ $$H = \sum_{i} \frac{p_i^2}{2m} + \sum_{i<j}\frac{e^2}{|r_i - r_j|} \;\;\xrighta
 > $$\text{스핀 액체} \;\Longrightarrow\; \text{광자·게이지장이 *창발*}, \qquad S_{\text{ent}} \sim \alpha L - \gamma$$
 >
 > *게이지장조차 창발할 수 있어 "무엇이 근본인가" 가 역설이 되고, 얽힘 엔트로피가 물질의 상(phase)을 규정한다는 것을 아는 것은 다르다.*
+=======
+### "전자가 많이 모이면 금속" 이라고 말하는 것 과,
+
+$$H = \sum_{i} \frac{p_i^2}{2m} + \sum_{i<j}\frac{e^2}{|r_i - r_j|} \;\;\xrightarrow{\;N \sim 10^{23}\;}\;\; \text{준입자 · 포논 · 쿠퍼 쌍 · 애니온}$$
+
+### 다수의 전자가 새로운 입자(준입자)를 만들어낸다 는 것 — "More is Different" 가 빈말이 아니라 물리적 사실 임을 — 아는 것은 다르다.
+
+<br/>
+
+> 초전도를 "저항이 0" 으로 외우는 것 과,
+>
+> $$\Delta = g\sum_{k}\frac{\Delta}{2E_k}\tanh\frac{E_k}{2k_BT}, \qquad E_k=\sqrt{\xi_k^2+\Delta^2}$$
+>
+> 쿠퍼 쌍·거시적 양자 결맞음이 어떻게 창발 하는지(BCS), 질서변수 $\psi=|\psi|e^{i\varphi}$ 의 위상 강성이 저항 0 을 낳는지를 아는 것은 다르다.
+>
+> 양자홀 전도도가 정확히 양자화된다는 것을 인용하는 것 과,
+>
+> $$\sigma_{xy} = C\,\frac{e^2}{h}, \qquad C = \frac{1}{2\pi}\int_{\text{BZ}} \Omega(k)\,d^2k \in \mathbb{Z}$$
+>
+> 그것이 위상(topology) — 대칭으로는 분류 안 되는 새 질서 — 의 귀결이고, 불순물에 무관하게 정밀하며, 분수 전하 $e/3$·애니온까지 낳는다는 것을 아는 것은 다르다.
+>
+> 응집물질을 "물성의 목록" 으로 여기는 것 과,
+>
+> $$\text{스핀 액체} \;\Longrightarrow\; \text{광자·게이지장이 창발}, \qquad S_{\text{ent}} \sim \alpha L - \gamma$$
+>
+> 게이지장조차 창발할 수 있어 "무엇이 근본인가" 가 역설이 되고, 얽힘 엔트로피가 물질의 상(phase)을 규정한다는 것을 아는 것은 다르다.
+>>>>>>> 8cb8cc6 (emergent quantum matter)
 
 <br/>
 
