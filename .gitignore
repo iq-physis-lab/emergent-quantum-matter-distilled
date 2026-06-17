@@ -1,0 +1,178 @@
+# =============================================================================
+# Emergent Quantum Matter Distilled — .gitignore  (Physis L3)
+# =============================================================================
+
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# Distribution / Packaging
+.Python
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Jupyter Notebook ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# ── NumPy / SciPy cache ──────────────────────────────────────────────────────
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+
+# ── 응집물질 시뮬레이션 산출물 ──────────────────────────────────────────────
+# 긴밀결합 밴드·천 수·BCS 갭·정확 대각화의 직렬화 결과
+band_structure_runs/
+chern_number_runs/
+bcs_gap_runs/
+exact_diag_states/
+berry_curvature_grids/
+edge_state_traces/
+*.hamiltonian
+*.eigenstate
+
+# ── Experiment outputs ───────────────────────────────────────────────────────
+# 생성된 그림 (각 챕터)
+# Ch1: 환원주의 한계 도식 · 대칭 깨짐 질서변수
+# Ch2: 페르미 액체 준입자 분산 · 포논·마그논 분산
+# Ch3: BCS 갭 Δ(T) 수렴 곡선 · 마이스너 침투 · 조셉슨 I-V
+# Ch4: 천 수 정수 점프 · 베리 곡률 · 분수 전하 · 벌크-경계 가장자리 모드
+# Ch5: 창발 게이지장 · 분수화 · 위상 엔트로피 면적 법칙 피팅
+# Ch6: 양자 상전이 위상도 · 모트 갭 · 강상관 스펙트럼
+# Ch7: 긴밀결합 밴드 · SSH Zak 위상 · 허바드 정확 대각화
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.gif
+*.mp4
+
+# 결과 / 로그
+results/
+outputs/
+logs/
+runs/
+*.log
+*.csv
+*.tsv
+
+# ── Parameter sweeps ─────────────────────────────────────────────────────────
+# 질량항 m sweep (위상 상전이) · 결합 g·온도 T sweep (BCS) · U/t sweep (허바드)
+sweeps/
+phase_diagram_scans/
+*.db
+*.sqlite
+*.sqlite3
+
+# ── 대규모 시뮬레이션 cache ──────────────────────────────────────────────────
+sim_cache/
+monte_carlo_cache/
+ed_cache/
+batch_results/
+
+# ── IDE / Editor ─────────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.code-workspace
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+
+# ── Documentation build ──────────────────────────────────────────────────────
+docs/_build/
+docs/generated/
+site/
+.mkdocs_cache/
+
+# ── LaTeX / 수식 PDF 빌드 ────────────────────────────────────────────────────
+# 일부 문서가 .tex 로 증명·유도 수식 export 하는 경우 대비
+*.aux
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.out
+*.bbl
+*.blg
+*.dvi
+*.lof
+*.lot
+
+# ── Secrets / Credentials ────────────────────────────────────────────────────
+.env.local
+.env.*.local
+secrets.py
+credentials.json
+*.pem
+*.key
+
+# ── Test / lint cache ────────────────────────────────────────────────────────
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# data/ 디렉토리 (참조 데이터 보존)
+data/
+datasets/
+raw/
+processed/
+!data/.gitkeep
